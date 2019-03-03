@@ -34,16 +34,24 @@ Step 2: Each question can be run by using their class name as a respective custo
 
 For **Question 1: Displaying Three Cards**
 
-```$ gradle DisplayThreeCards```
+```bash
+$ gradle DisplayThreeCards
+```
 
 For **Question 2: Investment-Value Calculator**
 
-```$ gradle InvestmentValueCalculator```
+```bash
+$ gradle InvestmentValueCalculator
+```
 
 For **Question 3: Dragging Points on a Circle**
 
-```$ gradle DraggingPointsOnCircle```
+```bash
+$ gradle DraggingPointsOnCircle
+```
 
 For **Question 4: Histogram```**
 
-```$ gradle Histogram```
+```bash
+$ gradle Histogram
+```
