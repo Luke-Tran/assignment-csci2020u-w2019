@@ -1,7 +1,6 @@
 package question3;
 
 import javafx.application.Application;
-//import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -42,8 +41,7 @@ public class DraggingPointsOnCircle extends Application {
     Text angleText3 = new Text();
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
-        //Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+    public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Question 3");
 
         Pane pane = new Pane();
