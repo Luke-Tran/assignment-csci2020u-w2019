@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.7' // JavaFX Gradle plugin. Need this line to run JavaFX.
+}
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    modules = [ 'javafx.controls' ] // JavaFX module. Need this line to run JavaFX.
+}
+
+task DisplayThreeCards(type: JavaExec) {
+	classpath = sourceSets.main.runtimeClasspath
+	main = "question1.DisplayThreeCards"
+	jvmArgs = ["--module-path", classpath.asPath, "--add-modules", "javafx.controls" ] // Need this line to run JavaFX runtime components.
+}
+
+task InvestmentValueCalculator(type: JavaExec) {
+	classpath = sourceSets.main.runtimeClasspath
+	main = "question2.InvestmentValueCalculator"
+	jvmArgs = ["--module-path", classpath.asPath, "--add-modules", "javafx.controls" ] // Need this line to run JavaFX runtime components.
+}
+
+task DraggingPointsOnCircle(type: JavaExec) {
+	classpath = sourceSets.main.runtimeClasspath
+	main = "question3.DraggingPointsOnCircle"
+	jvmArgs = ["--module-path", classpath.asPath, "--add-modules", "javafx.controls" ] // Need this line to run JavaFX runtime components.
+}
+
+task Histogram(type: JavaExec) {
+	classpath = sourceSets.main.runtimeClasspath
+	main = "question4.Histogram"
+	jvmArgs = ["--module-path", classpath.asPath, "--add-modules", "javafx.controls" ] // Need this line to run JavaFX runtime components.
+}
