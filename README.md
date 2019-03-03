@@ -50,7 +50,7 @@ For **Question 3: Dragging Points on a Circle**
 $ gradle DraggingPointsOnCircle
 ```
 
-For **Question 4: Histogram```**
+For **Question 4: Histogram**
 
 ```bash
 $ gradle Histogram
