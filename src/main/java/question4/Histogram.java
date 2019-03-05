@@ -192,6 +192,7 @@ public class Histogram extends Application {
                 }
             }
             drawHistogram(pane);
+			scanner.close();
         }
         catch (IOException ex) {
             ex.printStackTrace();
